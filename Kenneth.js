@@ -27,7 +27,7 @@ function rockPaperScissors(input) {
   let opponentChoice;
   let outcome;
 
-  for (let i = 0; i <= random; i++) {
+  for (let i = 0; i <= random; i++) { //iteration
     if (i % 3 == 0) {
       opponentChoice = "rock";
     } else if (i % 2 == 0) {
@@ -37,7 +37,7 @@ function rockPaperScissors(input) {
     }
   }
 
-  if (opponentChoice == "rock") {
+  if (opponentChoice == "rock") { //selection
     if (input == 1) {
       outcome = "win";
     } else if (input == 2) {
