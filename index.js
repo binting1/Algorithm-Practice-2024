@@ -9,23 +9,35 @@
 //      return result;
 // }
 
-// function checkSpaces(n, yesterday, today) {
-//     let count = 0; 
-//     for(let i= 0; i < n; i++) {
-//         if(yesterday[i] === 'C' && today[i] === 'C') {
-//             count++; 
-//         }
-//     }
-//     return count;
-// }
-
-// console.log(checkSpaces(5, "CCC.C", ".CC.." ));
-
-function DtoB (n, decimal, binary) {
-    for (let i=0, i < n, i++) {
-        if(decimal[i] === )
+function checkSpaces(n, yesterday, today) {
+    let count = 0; 
+    for(let i= 0; i < n; i++) {
+        if(yesterday[i] === 'C' && today[i] === 'C') {
+            count++; 
+        }
     }
-    return binary 
+    return count;
 }
 
-2.45
+console.log(checkSpaces(5, "CCC.C", ".CC.." ));
+
+// binary to decimal 
+// 1. input number 
+// 2. string is "111"
+// 3. for loop i equal zero, i is less than number, i--
+// 4. 
+
+function BtoD (n) {
+    let number = 0;
+    let binary = [];
+    for(let i=0; i < number; i--) {
+        if(binary[i] === '0001') 
+            number++;
+    }
+    
+}
+
+console.log(BtoD("1101"));
+
+functionof binary to deciaml 
+
